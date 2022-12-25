@@ -5,6 +5,7 @@
       <style>
          body {
          background-color: #212121;
+         color: white;
          }
       </style>
    </head>
@@ -17,5 +18,13 @@
       <a href="6.jpg"> <img src="6.jpg" width="1000" height="450"> </a>
       <a href="7.jpg"> <img src="7.jpg" width="1000" height="450"> </a>
       <a href="8.jpg"> <img src="8.jpg" width="1000" height="450"> </a>
+      <h4>potansiyometre map değer:</h4>
+      <h5>int deger = 0;
+      <h5>void loop()
+      <h5>{</h5>
+      <h5>  deger = analogRead(pot);</h5>
+      <h5>  deger = map(deger,0,1023,0,255);</h5>
+      <h5>  analogWrite(led, deger);  </h5>
+      <h5>}</h5>
    </body>
 </html>
