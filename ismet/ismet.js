@@ -22,3 +22,8 @@ document.oncontextmenu = mischandler;
 document.onkeypress = keyhandler;
 document.onmousedown = mousehandler;
 document.onmouseup = mousehandler;
+
+
+ScrollReveal().reveal('.header', { delay: 350});
+ScrollReveal().reveal('.feature', { delay: 550});
+ScrollReveal().reveal('.feature2', { delay: 750});
