@@ -1,509 +1,125 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>shndev</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shndev</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/8ef372609d.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <button class="backtotop scrollreveal" onclick="topFunction()" id="backtotop" title="Go to top"><i class="fa-solid fa-angle-up"></i></button>
+    <div id="myNav" class="overlay scrollreveal" onclick="closeNav()">
+        <p>Contact me on social media or follow me!</p>
+        <div class="overlay-content">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-discord"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- header start -->
+    <header class="container scrollreveal">
+        <div class="mergedisplay"><b>Please open the site in a larger resolution.</b></div>
+        <nav id="nav">
+            <div class="logo">
+                <a href="#">SHNDEV</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="hover-underline-animation" href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a class="hover-underline-animation" href="#about"><i class="fa-solid fa-magnifying-glass"></i> About</a></li>
+                    <li><a class="hover-underline-animation" title="Click and send me an e-mail!" href="mailto:shndev00@proton.me"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><i class="fa-solid fa-language"></i> <i class="fa-solid fa-angle-down"></i></button>
+                            <div class="dropdown-content">
+                            <a class="selectedlang"><b>English</b></a>
+                            <a href="tr/">Türkçe</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <a target="_blank" href="https://github.com/shndevdotpy" class="menu-button"><i class="fa-brands fa-github"></i> Projects</a>
+            </div>
+        </nav>
+        <div id="navend"></div>
+    </header>
+    <!-- header end -->
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="fa-solid fa-gem"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>SHNDEV</h1>
-								<code>"SULEYMAN SAHIN"</code>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#my-works">My Works</a></li>
-								<!--<li><a href="#work">Work</a></li>-->
-								<li><a href="#about">About Me</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="/ismet">ismet AI</a></li>-->
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+    <!-- intro start -->
+    <section class="container content scrollreveal">
+        <h1>Süleyman Şahin</h1>
+        <h3><a class="select">"SHNDEV"</a></h3>
+        
+            <div class="typecontainer">
+                <p>I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+            </div>
+        
+        <div class="links">
+            <a href="#about"><i class="fa-solid fa-question"></i> About Me</a>
+            <a href="javascript:void(0)" onclick="openNav()"><i class="fa-solid fa-hashtag"></i> Social Media</a>
+        </div>
+    </section>
+    <!-- intro end -->
 
-				<!-- Main -->
-					<div id="main">
+    <!-- about start -->
 
-						<!-- My Works -->
-							<article id="my-works">
-								<h2 class="major">My Works</h2>
+    <div class="aboutcontent scrollreveal" id="about">
+        <p class="aboutmehead">About Me</p>
+        <p>Hi, I am Süleyman (shndev) Şahin. I am 16 years old. I lived in Çanakkale until I was 7 years old</p>
+        <p>and now I live in Istanbul. I am a high school 11th grade software development student. I am improving myself</p>
+        <p>in this business by learning something new every day and I believe I will be successful.</p>
+        <p class="aboutlangs">I know software and markup languages:</p>
 
+        <div class="skillsarea scrollreveal">
+        <p>Python</p>
+        <div class="skillcontainer scrollreveal">
+            <div class="python scrollreveal">65%</div>
+            </div>
+            <p>C#</p>
+            <div class="skillcontainer scrollreveal">
+            <div class="cs scrollreveal">60%</div>
+            </div>
+            <p>Java</p>
+            <div class="skillcontainer scrollreveal">
+            <div class="java scrollreveal">5%</div>
+            </div>
+            <p>HTML</p>
+            <div class="skillcontainer scrollreveal">
+            <div class="html scrollreveal">40%</div>
+            </div>
+            <p>CSS</p>
+            <div class="skillcontainer scrollreveal">
+            <div class="css scrollreveal">30%</div>
+            </div>
 
+        </div>
+    </div>
 
-								<div class="table-wrapper">
-									<table>
-										<thead>
-											<tr>
-												<th><code>Name</code></th>
-												<th><code>Description</code></th>
-												<th><code>Language</code></th>
-												<th><code>More</code></th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Discord Embed Sender</td>
-												<td>This app makes it easy to send embed</td>
-												<td><i class="fa-brands fa-python"></i> Python</td>
-												<td><a href="#project-dcembedsender" class="button">View</a></td>
-											</tr>
-											<tr>
-												<td>SNEKKI</td>
-												<td>Snake Game</td>
-												<td><i class="fa-brands fa-python"></i> Python</td>
-												<td><a href="#project-snekki" class="button">View</a></td>
-											</tr>
-											<tr>
-												<td>VALORANT Buttons</td>
-												<td>VALORANT style buttons.</td>
-												<td><i class="fa-brands fa-html5"></i> HTML, <i class="fa-brands fa-css3-alt"></i> CSS</td>
-												<td><a href="#project-valorant-buttons" class="button">View</a></td>
-											</tr>
-											<tr>
-												<td>Terminal Page</td>
-												<td>It is terminal logic. Users access th...</td>
-												<td><i class="fa-brands fa-html5"></i> HTML, <i class="fa-brands fa-css3-alt"></i> CSS,  <i class="fa-brands fa-square-js"></i> Javascript</td>
-												<td><a href="#project-terminal-page" class="button">View</a></td>
-											</tr>
-											<!--<tr>
-												<td>N/A</td>
-												<td>N/A</td>
-												<td><a target="_blank" href="#" class="button">N/A</a></td>
-											</tr>-->
-										</tbody>
-										<tfoot>
-											<tr>
-												<td colspan="2"></td>
-												<td><td><a target="_blank" href="https://github.com/shndevdotpy" class="button primary"><i class="fa-brands fa-github"></i> Github</a></td></td>
-											</tr>
-										</tfoot>
-									</table>
-								</div>
-								
+    <!-- about end -->
+    <!-- contact start -->
 
+    <div class="content2 scrollreveal">
+        <div class="contactcontent scrollreveal">
+            <p class="contacthead">Contact Me</p>
+            <p class="contactdesc">*soon*</p>
+        </div>
+    </div>
+    <!-- contact end -->
 
-
-							</article>
-							
-
-							<!-- Discord Embed Sender -->
-							<article id="project-dcembedsender">
-								<h2 class="major">Discord Embed Sender <i class="fa-brands fa-python"></i></h2>
-
-
-
-								<div class="table-wrapper">
-									
-									<code>Required libraries: <a target="_blank" href="https://pypi.org/project/PySimpleGUI/">PySimpleGui</a> and <a target="_blank" href="https://pypi.org/project/dhooks/">dhooks</a></code>
-									<p><h3>This app makes it easy to send embed</h3></p>
-									<p><h1>Preview:</h1></p>
-									<iframe width="560" height="300" src="https://www.youtube.com/embed/ujfaqQhe2lE" title="Discord Embed Sender (Python)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									<img src="https://camo.githubusercontent.com/c1a5c10ad12b6e96d411489a4cc4a6f96e931cb65add2006b80fdedcba958e86/68747470733a2f2f692e696d6775722e636f6d2f454863625a69352e706e67" alt="Program Interface">
-									<img src="https://camo.githubusercontent.com/d0065c9a255e8a113e4c00a315326be9e60cd3b64f1f186cfdc0d6306802359e/68747470733a2f2f692e696d6775722e636f6d2f794367414a354c2e706e67" alt="Discord Embed">
-									<p><h1>Source Code:</h1></p>
-									<p><td><a target="_blank" href="https://github.com/shndevdotpy/discord-embed-sender" class="button">Github</a></td></p>
-								</div>
-								
-
-
-
-							</article>
-
-							<!-- SNEKKI -->
-							<article id="project-snekki">
-								<h2 class="major">SNEKKI <i class="fa-brands fa-python"></i></h2>
-
-
-
-								<div class="table-wrapper">
-									
-									<code>Required libraries: <a target="_blank" href="https://pypi.org/project/pygame/">pygame</a>, sys, <a target="_blank" href="https://pypi.org/project/colorama/">colorama</a>, winsound, time, random</code>
-									<p><h3>SNEKKI the snake game <i class="fa-regular fa-heart"></i></h3></p>
-									<p><h1>Preview:</h1></p>
-									<iframe width="560" height="300" src="https://www.youtube.com/embed/m3Raxd_OMQQ" title="Devlog #1 | SNEKKI the Snake" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									<img width="560" height="300" src="https://camo.githubusercontent.com/8dc53d6c19fffb12291a7c28079153095c25bd49ca019ad70bc059f1763a285e/68747470733a2f2f7777772e6c696e6b706963747572652e636f6d2f712f315f31352e6a7067" alt="Main Menu">
-									<img width="560" height="300" src="https://camo.githubusercontent.com/ee776a137b610f14a9b62a127ecfc516563dd9b50648bbf54f0dd476b9c4517c/68747470733a2f2f7777772e6c696e6b706963747572652e636f6d2f712f345f322e6a7067" alt="Game">
-									<p><h1>Source Code:</h1></p>
-									<p><td><a target="_blank" href="https://github.com/shndevdotpy/snekki" class="button">Github</a></td></p>
-								</div>
-								
-
-
-
-							</article>
-
-							<!-- VALORANT buttons -->
-							<article id="project-valorant-buttons">
-								<h2 class="major">VALORANT Buttons <i class="fa-brands fa-html5"></i>, <i class="fa-brands fa-css3-alt"></i></h2>
-
-
-
-								<div class="table-wrapper">
-									<h3>VALORANT STYLE CSS BUTTONS!</h3>
-									<p><h1>Preview:</h1></p>
-									<img width="560" height="300" src="https://user-images.githubusercontent.com/47943053/155579633-e93fa3dc-ad0e-4970-9f00-8ace44766623.png" alt="Buttons">
-									<img width="560" height="300" src="https://user-images.githubusercontent.com/47943053/155579775-4c2f61ca-52c3-4860-9ce3-0353c86c9ff0.png" alt="Hovered Buttons">
-									<p><h1>Source Code:</h1></p>
-									<p><td><a target="_blank" href="https://github.com/shndevdotpy/valorant-buttons" class="button">Github</a></td></p>
-								</div>
-								
-
-
-
-							</article>
-
-
-							<!-- Terminal Page -->
-							<article id="project-terminal-page">
-								<h2 class="major">Terminal Page <i class="fa-brands fa-html5"></i>, <i class="fa-brands fa-css3-alt"></i>,  <i class="fa-brands fa-square-js"></i></h2>
-
-
-
-								<div class="table-wrapper">
-									
-									
-									<h3>It is terminal logic. Users access the content you specify by entering commands.</h3>
-									<p><h1>Preview:</h1></p>
-									<img width="560" height="300" src="https://camo.githubusercontent.com/10e71304a3db08b88a70031475347c1a255e46dbb410a9a768da0f15af6c46e9/68747470733a2f2f692e696d6775722e636f6d2f4361774d4146702e706e67" alt="Terminal Page">
-									<p><h1>Source Code:</h1></p>
-									<p><td><a target="_blank" href="https://github.com/shndevdotpy/terminal-page" class="button">Github</a></td></p>
-								</div>
-								
-
-
-
-							</article>
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
-							</article>
-
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<h4>Who is this man?</h4>
-								<p>Hello, I'm Süleyman. I was born on May 1, 2007 in Çanakkale/Turkey. After the age of 7, I continued my education and life in Istanbul.</p>
-								<h4>What is your education level?</h4>
-								<p>I am currently in the 10th grade and I am in the field of software in the Information Technologies department at my school.</p>
-								<h4>What is your reason for continuing this job?</h4>
-								<p>I improve myself by doing research every day and I know that the result will be good.</p>
-							</article>
-
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<!--<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>-->
-								<ul class="icons">
-									<h3>Social</h3>
-									<li><a target="_blank" href="https://twitter.com/shndev" class="fa-brands fa-twitter"><span class="label"></span></a></li>
-									<li><a target="_blank" href="https://discord.gg/XA2khV8MvX" class="fa-brands fa-discord"><span class="label"></span></a></li>
-									<li><a target="_blank" href="https://www.instagram.com/0shndev" class="fa-brands fa-instagram"><span class="label"></span></a></li>
-									<li><a target="_blank" href="https://github.com/shndevdotpy" class="fa-brands fa-github"><span class="label"></span></a></li>
-								</ul>
-							</article>
-
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-discord"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy;2023 shndev. Design: <a target="_blank" href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <script src="js/scripts.js"></script>
+</body>
+<footer>
+    <div class="footer scrollreveal">
+        <p class="footertext"><i class="fa-regular fa-copyright"></i><script>document.write( new Date().getUTCFullYear() );</script> shndev</p>
+        <p>All rights reserved.</p>
+        <p class="love">made with <i style="color: red;" class="fa-solid fa-heart"></i></p>
+        <p class="footereasteregg">with dark theme for your eyes :)</p>
+    </div>
+</footer>
 </html>
