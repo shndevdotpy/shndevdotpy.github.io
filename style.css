@@ -1,0 +1,55 @@
+body{
+    font-family: Montserrat;
+    font-size: 24px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+*{
+    cursor: context-menu;
+}
+
+p::selection{
+    background-color: blueviolet;
+}
+
+.container{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50vh;
+}
+
+.social ul li{
+    list-style: none;
+    float: left;
+
+}
+
+.social ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 0.2s ease;
+}
+
+.social ul li a:hover{
+    color: blueviolet;
+    transition: 0.2s ease;
+}
+
+.social{
+    width: 300px;
+    height: 30px;
+
+}
+
+.social ul{
+    width: 180px;
+    margin: auto;
+}
+
+/* Coded with ❤️ by shndev */
